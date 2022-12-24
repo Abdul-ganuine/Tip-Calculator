@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+<body>
+  <main class="body">
+    <h3 title0>SPLI <br>TTER</h3>
+    <div class="box-container">
+      <div class="data-entry-box box">
+        <h3 class="title1"> Bill</h3>
+        <div class="bill-box">
+          <div class="image">
+          <img src="images/icon-dollar.svg" alt="" class="dollar-sign">
+        </div>
+          <input type="text" class="bill-amount" placeholder="0">
+        </div>
+        <h3 class="title2"> Select Tip %</h3>
+        <div class="tip-percentage-selection-box">
+          <div class="first-half">
+            <div class="rectange rec1">5%</div>
+            <div class="rectange rec2">10%</div>
+            <div class="rectange rec3">15%</div>
+          </div>
+          <div class="second-half">
+            <div class="rectange rec4">25%</div>
+            <div class="rectange rec5">50%</div>
+            <input type="text" class="rectange rec6" placeholder="CUSTOM"></input>
+          </div>
+        </div>
+        <div class="title3">Number of People</div>
+        <div class="title"></div>
+        <div class="number-of-people-box">
+          <div class="image">
+            <img src="./images/icon-person.svg" alt="">
+          </div>
+          <input type="text" class="people" placeholder="0">
+        </div>
+      </div>
+      <div class="display-box box">
+        <div class="tip-amount-box">
+          <div class="info">
+            <p class="title4">Tip Amount</p>
+            <p class="title5"> / person</p>
+          </div>
+          <div class="tip-value person">$0.00</div>
+        </div>
+        <div class="tip-amount-box">
+          <div class="info">
+            <p class="title4">Total</p>
+            <p class="title5"> / person</p>
+          </div>
+          <div class="tip-value total">$0.00</div>
+        </div>
+
+        <button class="reset">RESET</button>
+      </div>
+    </div>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Abdul Ganuine Alhassan</a>.
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
